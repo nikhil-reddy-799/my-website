@@ -1,0 +1,116 @@
+/* General Reset */
+body, h1, h2, p, ul, li, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8; /* Light gray background for the entire page */
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    padding: 1rem 0;
+    background-color: #343a40; /* Dark background for the navbar */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .navbar-brand:hover {
+    color: #f8d210;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    color: #ddd;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #fff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #007bff, #6c757d); /* Gradient background */
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+  }
+  
+  /* Workout Categories Section */
+  section.container {
+    background: #ffffff; /* White background for the section */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #343a40; /* Dark background for the footer */
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
